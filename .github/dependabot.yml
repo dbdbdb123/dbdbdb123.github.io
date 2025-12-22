@@ -4,6 +4,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+
   - package-ecosystem: "npm"
     directory: "/"
     versioning-strategy: increase
@@ -14,6 +15,7 @@ updates:
         dependency-type: development
     schedule:
       interval: "weekly"
+
   - package-ecosystem: "github-actions"
     directory: "/"
     groups:
@@ -22,6 +24,10 @@ updates:
           - "major"
     schedule:
       interval: "weekly"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
+
   - package-ecosystem: "devcontainers"
     directory: "/"
     schedule:
