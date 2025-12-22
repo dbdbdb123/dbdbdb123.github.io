@@ -34,6 +34,7 @@ updates:
       prefix: "chore"
       include: "scope"
 
+
   - package-ecosystem: "devcontainers"
     directory: "/"
     schedule:
