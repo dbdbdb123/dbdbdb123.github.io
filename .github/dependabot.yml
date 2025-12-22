@@ -8,6 +8,7 @@ updates:
         dependency-type: "production"
     schedule:
       interval: "monthly"
+
   - package-ecosystem: "npm"
     directory: "/"
     versioning-strategy: increase
@@ -16,6 +17,7 @@ updates:
         dependency-type: "development"
     schedule:
       interval: "monthly"
+
   - package-ecosystem: "github-actions"
     directory: "/"
     groups:
@@ -24,3 +26,6 @@ updates:
           - "major"
     schedule:
       interval: "monthly"
+    commit-message:
+      prefix: "chore"
+      include: "scope"
