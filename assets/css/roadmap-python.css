@@ -1,0 +1,56 @@
+/* python 카테고리 페이지에서만 조건부로 link 로드됨 */
+
+.py-roadmap-wrap{
+  padding: 1.2rem;
+  border-radius: 1.25rem;
+  margin: 1.1rem 0 1.4rem;
+  background: linear-gradient(135deg, rgba(30,41,59,.92), rgba(17,24,39,.96));
+}
+
+.py-roadmap-title{
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.py-roadmap-sub{
+  margin: .45rem 0 0;
+  opacity: .78;
+  color: #fff;
+}
+
+.py-roadmap-chips{
+  margin-top: 1rem;
+  display: flex;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+
+.py-chip{
+  text-decoration: none;
+  padding: .38rem .65rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,.14);
+  color: #fff;
+  font-weight: 700;
+}
+
+.py-roadmap-grid{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: .9rem;
+}
+
+.py-roadmap-item{
+  display:block;
+  text-decoration:none;
+  padding: 1rem;
+  border-radius: 1.1rem;
+  background: rgba(255,255,255,.08);
+  color:#fff;
+}
+
+.py-roadmap-item strong{display:block;font-size:1.05rem;}
+.py-roadmap-item span{display:block;margin-top:.35rem;opacity:.8;}

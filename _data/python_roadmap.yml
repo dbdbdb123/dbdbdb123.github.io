@@ -1,0 +1,19 @@
+- title: "Python 기초"
+  desc: "문법/자료구조/함수/모듈"
+  href: "/tags/python-basic/"
+  tag: "python-basic"
+
+- title: "OpenCV"
+  desc: "전처리/윤곽/기하변환"
+  href: "/tags/opencv/"
+  tag: "opencv"
+
+- title: "OCR"
+  desc: "MRZ/CRNN/후처리"
+  href: "/tags/ocr/"
+  tag: "ocr"
+
+- title: "FastAPI"
+  desc: "서버/비동기/배포"
+  href: "/tags/fastapi/"
+  tag: "fastapi"
